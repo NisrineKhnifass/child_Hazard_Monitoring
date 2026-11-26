@@ -4,7 +4,7 @@ Research prototype of a modular video pipeline that detects a child in an indoor
 
 Developed during a 4-month research internship (April to August 2026) at the **VIS2KNOW Lab, Sungkyunkwan University (SKKU)**, Seoul, as part of the engineering curriculum of **ENSICAEN**.
 
-> Status: research prototype. Each module was trained, evaluated and tested separately; the final end-to-end run has not been archived yet (see [Limitations](#limitations)). It is not a safety device ready for deployment.
+> Status: research prototype. Each module was trained and evaluated separately, and a functional end-to-end test of the complete chain passes all 9 system checks (see [Results](#results)). It is not a safety device ready for deployment.
 
 ![System overview](documentation/system_overview.png)
 
@@ -110,6 +110,9 @@ YOLOE-26s was kept as the best quality/speed trade-off.
 
 Mistral-7B-Instruct in few-shot mode is the final decision engine. QLoRA fine-tuning on 24 examples did not improve it (documented negative result).
 
+### End-to-end functional test
+The frozen pipeline (YOLO26m → VideoMAE → YOLOE-26s → distances → JSON → Mistral-7B) was run on 5 videos from the decision test set: 9/9 system checks pass, 4/5 decisions are correct, 100 % of the outputs are valid JSON, and the average latency is 19.7 s per video on a T4 GPU. These videos were also used to evaluate M4, so this test validates the interfaces, not the accuracy.
+
 Full details are in the [internship report](report/internship_report_en.pdf).
 
 ## Running the notebooks
@@ -144,7 +147,7 @@ External code is downloaded by the notebooks themselves: [VideoMAEv2](https://gi
 | VideoMAE scores are not calibrated | Calibrate the probabilities |
 | No identity tracking | Add ByteTrack or BoT-SORT |
 | Distances are computed in 2D | Estimate depth |
-| Final end-to-end run not archived | Run and archive notebook `4_2` |
+| End-to-end test on 5 videos only | Run it on a larger, unseen set |
 | Small evaluation sets (24 test videos for M4) | Annotate more videos, with a second annotator |
 
 ## Acknowledgements
