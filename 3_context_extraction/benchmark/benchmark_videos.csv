@@ -1,0 +1,25 @@
+class_name,candidate_number,benchmark_split,filename,video_path,total_frames,fps,width,height
+Jumping,2,calibration,1 (150).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/Jumping/1 (150).mp4,92,29.87,640,480
+Jumping,1,test,1 (394).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/Jumping/1 (394).mp4,112,30.0,640,480
+child_running,1,calibration,1 (225).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/child_running/1 (225).mp4,63,30.0,640,480
+child_running,3,test,1 (201).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/child_running/1 (201).mp4,45,29.79,640,480
+climbing,1,calibration,1 (163).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/climbing/1 (163).mp4,162,25.0,640,480
+climbing,2,test,1 (146).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/climbing/1 (146).mp4,238,29.97,640,480
+collesion,1,calibration,1 (119).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/collesion/1 (119).mp4,19,29.97,640,480
+collesion,3,test,1 (197).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/collesion/1 (197).mp4,64,30.0,640,480
+electrical_appliances,1,calibration,1 (106).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/electrical_appliances/1 (106).mp4,85,29.97,640,480
+electrical_appliances,2,test,1 (105).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/electrical_appliances/1 (105).mp4,56,29.97,640,480
+falling,1,calibration,1 (2).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/falling/1 (2).mp4,66,30.0,640,480
+falling,2,test,1 (206).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/falling/1 (206).mp4,94,29.97,640,480
+head_stuck,1,calibration,1 (99).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/head_stuck/1 (99).mp4,58,30.0,640,480
+head_stuck,2,test,1 (104).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/head_stuck/1 (104).mp4,74,30.0,640,480
+normal,1,calibration,1 (190).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/normal/1 (190).mp4,265,30.0,640,480
+normal,3,test,1 (292).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/normal/1 (292).mp4,367,30.0,640,480
+objects_falling,1,calibration,1 (22).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/objects_falling/1 (22).mp4,55,30.38,640,480
+objects_falling,2,test,1 (35).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/objects_falling/1 (35).mp4,80,29.95,640,480
+pulling_curtains,1,calibration,1 (40).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/pulling_curtains/1 (40).mp4,102,30.0,640,480
+pulling_curtains,2,test,1 (1).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/pulling_curtains/1 (1).mp4,81,24.0,640,480
+scribbling,2,calibration,1 (172).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/scribbling/1 (172).mp4,62,24.0,640,480
+scribbling,1,test,1 (7).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/scribbling/1 (7).mp4,90,24.0,640,480
+sharp_objects,1,calibration,1 (197).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/sharp_objects/1 (197).mp4,88,30.0,640,480
+sharp_objects,3,test,1 (163).mp4,/kaggle/input/datasets/nisrineamalkhnifass/training/Training/sharp_objects/1 (163).mp4,43,30.0,640,480

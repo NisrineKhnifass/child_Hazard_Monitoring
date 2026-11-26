@@ -1,0 +1,24 @@
+# Data (not published)
+datasets/
+
+# Model weights (too large for GitHub)
+models/
+*.pt
+*.pth
+
+# Heavy files
+*.mp4
+*.avi
+*.mov
+*.zip
+
+# Third-party papers (listed in state_of_the_art/README.md)
+state_of_the_art/*.pdf
+
+# Local environments and files
+_local/
+_a_supprimer/
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/

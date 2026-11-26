@@ -1,0 +1,27 @@
+{
+  "purpose": "Comparison of open-vocabulary object detectors",
+  "models": [
+    "Grounding DINO",
+    "YOLO-World",
+    "OWLv2"
+  ],
+  "number_of_activity_classes": 12,
+  "videos_per_activity_class": 2,
+  "total_videos": 24,
+  "frames_per_video": 4,
+  "total_frames": 96,
+  "calibration_videos": 12,
+  "calibration_frames": 48,
+  "test_videos": 12,
+  "test_frames": 48,
+  "video_disjoint_splits": true,
+  "sample_indices": [
+    2,
+    6,
+    10,
+    14
+  ],
+  "ground_truth_format": "COCO object detection",
+  "object_matching_iou": 0.5,
+  "child_excluded_from_object_detector_metrics": true
+}
